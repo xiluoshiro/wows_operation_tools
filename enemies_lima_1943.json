@@ -364,7 +364,12 @@
   },
   "stage4": {
     "level1": {
-      "debuff": [],
+      "debuff": [
+        "armor"
+      ],
+      "debuff_percent": {
+        "armor": 24
+      },
       "forbidden": [],
       "enemies": [
         {
