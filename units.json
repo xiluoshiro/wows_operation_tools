@@ -311,5 +311,45 @@
         "direction": "front_right"
       }
     ]
+  },
+  {
+    "id": "uss_benson",
+    "name": "USS本森",
+    "type": "destroyer",
+    "firepower": 40,
+    "armor": 40,
+    "maneuverability": 60,
+    "buffs": [
+      {
+        "name": "maneuverability",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "large_caliber",
+        "direction": "front"
+      }
+    ]
+  },
+  {
+    "id": "hms_king_george_v",
+    "name": "HMS英王乔治五世",
+    "type": "battleship",
+    "firepower": 60,
+    "armor": 60,
+    "maneuverability": 35,
+    "buffs": [
+      {
+        "name": "firepower",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "detectability",
+        "direction": "front_right"
+      }
+    ]
   }
 ]
