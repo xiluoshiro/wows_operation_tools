@@ -548,5 +548,24 @@
         "direction": "front_left"
       }
     ]
+  },
+  {
+    "id": "uss_alaska",
+    "name": "USS阿拉斯加",
+    "type": "cruiser",
+    "firepower": 65,
+    "armor": 65,
+    "maneuverability": 50,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "detectability",
+        "direction": "front_left"
+      },
+      {
+        "name": "large_caliber",
+        "direction": "front"
+      }
+    ]
   }
 ]

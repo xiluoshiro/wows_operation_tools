@@ -58,6 +58,8 @@ def read_inputs(units_path, enemies_path):
             for e in foes:
                 if type(e['power']) is not int or e['power'] < 0:
                     raise ValueError(f'{stage}/{name} 敌方战力须为非负整数。')
+                if type(e.get('buff_percent', 0)) is not int or e.get('buff_percent', 0) < 0:
+                    raise ValueError(f'{stage}/{name} 敌方 buff_percent 须为非负整数百分数。')
                 if not set(e['weaknesses']) <= ABILITIES:
                     raise ValueError(f'{stage}/{name} 存在未知弱点标识。')
             debuffs = level['debuff']
@@ -100,7 +102,11 @@ def make_table(units, level, formations, order):
                         reds[selected, dst] = True
     # 叠加未确认：多次命中仅计一次已知收益。
     powers = np.array([e['power'] for e in level['enemies']])
-    enemy = (powers[None, :] * np.where(reds, 8, 10) + 9) // 10
+    buff_factors = 100 + np.array([e.get('buff_percent', 0) for e in level['enemies']])
+    # power 已包含敌方增益；还原基础战力后，增益与红色减益按百分点相加。
+    # 中间值不取整，仅将最终敌方有效战力向上取整。
+    enemy = (powers[None, :] * (buff_factors[None, :] - reds * 20)
+             + buff_factors[None, :] - 1) // buff_factors[None, :]
     base = np.array([[u[a] for a in ATTRS] for u in units], dtype=np.int64)
     margins = []
     for health in (1, 2, 3):
@@ -229,6 +235,7 @@ def report(units, stages, status, plan, nodes, elapsed, args):
              f'输入：{args.enemies.name}；单位 {len(units)} 张，起始均为三格血。',
              f'搜索用时 {elapsed:.2f} 秒，分支 {nodes}；最低保守余量要求 {args.min_margin}，允许风险对位 {args.max_risk}。',
              '模型：血量系数 100% / 90% / 80%；绿色属性 +30%；匹配红色能力 −20%；战力为三维之和 ±10。',
+             '敌方 power 为已含增益的读数；有 b% 增益且红色命中时，按 power × (100+b−20)/(100+b) 计算，最终向上取整。',
              '同属性绿色、同敌人红色多次命中只计一次收益。我方逐步向下取整，敌方有效战力向上取整；表中是保守边界，不是游戏读数。',
              '条件顺序：' + (args.condition_order or '未确认；排除条件减益与同属性绿色增益同时生效的排阵。'), '']
     hp = [3] * len(units)
@@ -245,7 +252,7 @@ def report(units, stages, status, plan, nodes, elapsed, args):
                 lines += ['特殊条件：所有绿色增益无效；匹配的红色减益仍生效。', '']
             if level.get('notes'):
                 lines += [level['notes'], '']
-            lines += ['| 位置 / 单位 / 血量 | 绿色增益来源 | 保守战力范围 | 敌方原值 → 保守有效值 | 红色减益来源 | 保守余量 |',
+            lines += ['| 位置 / 单位 / 血量 | 绿色增益来源 | 保守战力范围 | 敌方读数 / 增益 → 保守有效值 | 红色减益来源 | 保守余量 |',
                       '| --- | --- | --- | --- | --- | --- |']
             for dst, i in enumerate(f):
                 green, red, credited = [], [], set()
@@ -268,8 +275,12 @@ def report(units, stages, status, plan, nodes, elapsed, args):
                 margin = int(margins[hp[i]-1, 0, dst])
                 effective = int(enemy[0, dst])
                 low = margin + effective
+                foe = level['enemies'][dst]
+                enemy_reading = str(foe['power'])
+                if foe.get('buff_percent', 0):
+                    enemy_reading += f'（增益 +{foe["buff_percent"]}%）'
                 lines.append(f'| {dst+1} / {units[i]["name"]} / {hp[i]}血 | {"；".join(green) or "无"} | '
-                             f'{low}–{low+20} | {level["enemies"][dst]["power"]} → {effective} | '
+                             f'{low}–{low+20} | {enemy_reading} → {effective} | '
                              f'{"；".join(red) or "无"} | {margin}{"（风险）" if margin <= 0 else ""} |')
             for i in f:
                 hp[i] -= 1
