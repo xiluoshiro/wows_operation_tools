@@ -1,0 +1,239 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "enemies": [
+        {
+          "id": "coastal_artillery",
+          "name": "岸防炮",
+          "type": "fortification",
+          "position": 1,
+          "power": 102,
+          "weaknesses": ["smoke_screen", "attack_aircraft"]
+        },
+        {
+          "id": "anti_aircraft_battery_1",
+          "name": "防空炮阵地",
+          "type": "fortification",
+          "position": 2,
+          "power": 106,
+          "weaknesses": ["smoke_screen", "rapid_fire"]
+        },
+        {
+          "id": "kate_torpedo_bomber",
+          "name": "\"KATE\"鱼雷轰炸机",
+          "type": "aircraft",
+          "position": 3,
+          "power": 104,
+          "weaknesses": ["anti_aircraft_fire", "large_caliber"]
+        },
+        {
+          "id": "anti_aircraft_battery_2",
+          "name": "防空炮阵地",
+          "type": "fortification",
+          "position": 4,
+          "power": 106,
+          "weaknesses": ["smoke_screen", "rapid_fire"]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": ["armor"],
+      "debuff_percent": {"armor": 24},
+      "forbidden": [],
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 113,
+          "weaknesses": ["rapid_fire", "attack_aircraft"]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 120,
+          "weaknesses": ["rapid_fire", "attack_aircraft"]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 112,
+          "weaknesses": ["large_caliber", "rapid_fire"]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 96,
+          "weaknesses": ["large_caliber", "smoke_screen"]
+        }
+      ]
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 108,
+          "weaknesses": ["rapid_fire", "attack_aircraft"]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 112,
+          "weaknesses": ["anti_aircraft_fire", "detectability"]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 106,
+          "weaknesses": ["rapid_fire", "attack_aircraft"]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 109,
+          "weaknesses": ["smoke_screen", "rapid_fire"]
+        }
+      ]
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 152,
+          "weaknesses": ["detectability", "attack_aircraft"]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 143,
+          "weaknesses": ["smoke_screen", "attack_aircraft"]
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 121,
+          "weaknesses": ["smoke_screen", "rapid_fire"]
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 130,
+          "weaknesses": ["smoke_screen", "rapid_fire"]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "enemies": [
+        {
+          "id": "stage3_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 105,
+          "weaknesses": ["detectability", "smoke_screen"]
+        },
+        {
+          "id": "stage3_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 97,
+          "weaknesses": ["large_caliber", "rapid_fire"]
+        },
+        {
+          "id": "stage3_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 111,
+          "weaknesses": ["detectability", "smoke_screen"]
+        },
+        {
+          "id": "stage3_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 97,
+          "weaknesses": ["anti_aircraft_fire", "rapid_fire"]
+        }
+      ]
+    }
+  },
+  "stage4": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "enemies": [
+        {
+          "id": "stage4_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 136,
+          "weaknesses": ["rapid_fire", "attack_aircraft"]
+        },
+        {
+          "id": "stage4_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 165,
+          "weaknesses": ["anti_aircraft_fire", "large_caliber"]
+        },
+        {
+          "id": "stage4_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 164,
+          "weaknesses": ["rapid_fire", "attack_aircraft"]
+        },
+        {
+          "id": "stage4_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 155,
+          "weaknesses": ["anti_aircraft_fire", "large_caliber"]
+        }
+      ]
+    }
+  }
+}

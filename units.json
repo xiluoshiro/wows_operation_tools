@@ -94,7 +94,7 @@
     "debuffs": [
       {
         "name": "attack_aircraft",
-        "direction": "front_left"
+        "direction": "front"
       }
     ]
   },
