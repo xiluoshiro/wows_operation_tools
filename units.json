@@ -508,5 +508,45 @@
         "direction": "front"
       }
     ]
+  },
+  {
+    "id": "hms_repulse",
+    "name": "HMS反击",
+    "type": "battleship",
+    "firepower": 45,
+    "armor": 35,
+    "maneuverability": 35,
+    "buffs": [
+      {
+        "name": "firepower",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "large_caliber",
+        "direction": "front_left"
+      }
+    ]
+  },
+  {
+    "id": "hmas_hobart",
+    "name": "HMAS霍巴特",
+    "type": "cruiser",
+    "firepower": 30,
+    "armor": 30,
+    "maneuverability": 45,
+    "buffs": [
+      {
+        "name": "armor",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "rapid_fire",
+        "direction": "front_left"
+      }
+    ]
   }
 ]
