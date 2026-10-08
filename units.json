@@ -272,5 +272,44 @@
         "direction": "front_right"
       }
     ]
+  },
+  {
+    "id": "hr_ms_de_ruyter",
+    "name": "HR.MS.德·鲁伊特",
+    "type": "cruiser",
+    "firepower": 30,
+    "armor": 30,
+    "maneuverability": 40,
+    "buffs": [
+      {
+        "name": "maneuverability",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "large_caliber",
+        "direction": "front_left"
+      }
+    ]
+  },
+  {
+    "id": "uss_north_carolina",
+    "name": "USS北卡罗来纳",
+    "type": "battleship",
+    "firepower": 80,
+    "armor": 75,
+    "maneuverability": 35,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "smoke_screen",
+        "direction": "front_left"
+      },
+      {
+        "name": "anti_aircraft_fire",
+        "direction": "front_right"
+      }
+    ]
   }
 ]

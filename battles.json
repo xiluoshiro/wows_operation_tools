@@ -54,5 +54,13 @@
   {
     "id": "uss_marblehead",
     "health": 3
+  },
+  {
+    "id": "hr_ms_de_ruyter",
+    "health": 3
+  },
+  {
+    "id": "uss_north_carolina",
+    "health": 3
   }
 ]
