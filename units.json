@@ -449,5 +449,44 @@
         "direction": "front"
       }
     ]
+  },
+  {
+    "id": "uss_baltimore",
+    "name": "USS巴尔的摩",
+    "type": "cruiser",
+    "firepower": 65,
+    "armor": 65,
+    "maneuverability": 50,
+    "buffs": [
+      {
+        "name": "firepower",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "detectability",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "corsair_uss_essex",
+    "name": "CORSAIR战斗机",
+    "type": "aircraft",
+    "firepower": 55,
+    "armor": 30,
+    "maneuverability": 95,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "anti_aircraft_fire",
+        "direction": "front_left"
+      },
+      {
+        "name": "attack_aircraft",
+        "direction": "front_right"
+      }
+    ]
   }
 ]

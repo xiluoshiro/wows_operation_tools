@@ -50,6 +50,8 @@ def read_inputs(units_path, enemies_path):
         levels = []
         for name in sorted(enemies[stage], key=lambda k: number(k, 'level')):
             level = enemies[stage][name]
+            if type(level.get('disable_buffs', False)) is not bool:
+                raise ValueError(f'{stage}/{name} 的 disable_buffs 须为布尔值。')
             foes = sorted(level['enemies'], key=lambda e: e['position'])
             if [e['position'] for e in foes] != [1, 2, 3, 4]:
                 raise ValueError(f'{stage}/{name} 须填写位置 1–4 的四个敌人。')
@@ -86,6 +88,8 @@ def make_table(units, level, formations, order):
             if u['type'] in level['forbidden']:
                 valid[selected] = False
             for field in ('buffs', 'debuffs'):
+                if field == 'buffs' and level.get('disable_buffs', False):
+                    continue
                 for effect in u[field]:
                     dst = src + OFFSET[effect['direction']]
                     if not 0 <= dst < 4:
@@ -236,13 +240,19 @@ def report(units, stages, status, plan, nodes, elapsed, args):
             used.update(f)
             margins, valid, enemy = make_table(units, level, np.array([f]), args.condition_order)
             assert valid[0]
-            lines += [f'## {stage}/{name}', '',
-                      '| 位置 / 单位 / 血量 | 绿色增益来源 | 保守战力范围 | 敌方原值 → 保守有效值 | 红色减益来源 | 保守余量 |',
+            lines += [f'## {stage}/{name}', '']
+            if level.get('disable_buffs', False):
+                lines += ['特殊条件：所有绿色增益无效；匹配的红色减益仍生效。', '']
+            if level.get('notes'):
+                lines += [level['notes'], '']
+            lines += ['| 位置 / 单位 / 血量 | 绿色增益来源 | 保守战力范围 | 敌方原值 → 保守有效值 | 红色减益来源 | 保守余量 |',
                       '| --- | --- | --- | --- | --- | --- |']
             for dst, i in enumerate(f):
                 green, red, credited = [], [], set()
                 for src, j in enumerate(f):
                     for field, target in (('buffs', green), ('debuffs', red)):
+                        if field == 'buffs' and level.get('disable_buffs', False):
+                            continue
                         for e in units[j][field]:
                             if src + OFFSET[e['direction']] == dst and (
                                 field == 'buffs' or e['name'] in level['enemies'][dst]['weaknesses']

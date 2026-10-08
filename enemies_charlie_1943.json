@@ -1,0 +1,315 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "禁用类型及其他据点条件未提供，待确认。",
+      "enemies": [
+        {
+          "id": "stage1_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 158,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 150,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 165,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 136,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "禁用类型及其他据点条件未提供，待确认。",
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 85,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 109,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 105,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 110,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "禁用类型及其他据点条件未提供，待确认。",
+      "enemies": [
+        {
+          "id": "stage1_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 127,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 152,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 144,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 160,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "特殊debuff：所有增益效果无效。禁用类型及其他据点条件未提供，待确认。",
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 99,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 124,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 105,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 118,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        }
+      ],
+      "disable_buffs": true
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "禁用类型及其他据点条件未提供，待确认。",
+      "enemies": [
+        {
+          "id": "stage2_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 152,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 130,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 149,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 133,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        }
+      ]
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "禁用类型及其他据点条件未提供，待确认。",
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 142,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 165,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 175,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 124,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    }
+  }
+}
