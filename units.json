@@ -73,7 +73,7 @@
     ],
     "debuffs": [
       {
-        "name": "smoke_screen",
+        "name": "large_caliber",
         "direction": "front_right"
       }
     ]
@@ -112,7 +112,7 @@
         "direction": "front"
       },
       {
-        "name": "large_caliber",
+        "name": "smoke_screen",
         "direction": "front_right"
       }
     ]
@@ -131,7 +131,7 @@
         "direction": "front_left"
       },
       {
-        "name": "large_caliber",
+        "name": "smoke_screen",
         "direction": "front_right"
       }
     ]
@@ -191,7 +191,7 @@
     ],
     "debuffs": [
       {
-        "name": "large_caliber",
+        "name": "smoke_screen",
         "direction": "front_left"
       }
     ]
@@ -230,7 +230,7 @@
         "direction": "front"
       },
       {
-        "name": "large_caliber",
+        "name": "smoke_screen",
         "direction": "front_right"
       }
     ]
@@ -245,7 +245,7 @@
     "buffs": [],
     "debuffs": [
       {
-        "name": "smoke_screen",
+        "name": "large_caliber",
         "direction": "front_left"
       },
       {
@@ -264,7 +264,7 @@
     "buffs": [],
     "debuffs": [
       {
-        "name": "large_caliber",
+        "name": "smoke_screen",
         "direction": "front"
       },
       {
@@ -288,7 +288,7 @@
     ],
     "debuffs": [
       {
-        "name": "large_caliber",
+        "name": "smoke_screen",
         "direction": "front_left"
       }
     ]
@@ -303,7 +303,7 @@
     "buffs": [],
     "debuffs": [
       {
-        "name": "smoke_screen",
+        "name": "large_caliber",
         "direction": "front_left"
       },
       {
@@ -327,7 +327,7 @@
     ],
     "debuffs": [
       {
-        "name": "large_caliber",
+        "name": "smoke_screen",
         "direction": "front"
       }
     ]
@@ -349,6 +349,25 @@
       {
         "name": "detectability",
         "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "uss_colorado",
+    "name": "USS科罗拉多",
+    "type": "battleship",
+    "firepower": 65,
+    "armor": 65,
+    "maneuverability": 20,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "anti_aircraft_fire",
+        "direction": "front_left"
+      },
+      {
+        "name": "large_caliber",
+        "direction": "front"
       }
     ]
   }
