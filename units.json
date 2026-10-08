@@ -409,5 +409,45 @@
         "direction": "front_left"
       }
     ]
+  },
+  {
+    "id": "uss_cleveland",
+    "name": "USS克利夫兰",
+    "type": "cruiser",
+    "firepower": 45,
+    "armor": 45,
+    "maneuverability": 55,
+    "buffs": [
+      {
+        "name": "maneuverability",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "rapid_fire",
+        "direction": "front"
+      }
+    ]
+  },
+  {
+    "id": "helldiver_uss_essex",
+    "name": "HELLDIVER俯冲轰炸机",
+    "type": "aircraft",
+    "firepower": 75,
+    "armor": 30,
+    "maneuverability": 75,
+    "buffs": [
+      {
+        "name": "firepower",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "attack_aircraft",
+        "direction": "front"
+      }
+    ]
   }
 ]
