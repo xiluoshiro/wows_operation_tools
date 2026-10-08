@@ -1,0 +1,58 @@
+[
+  {
+    "id": "uss_kidd",
+    "health": 3
+  },
+  {
+    "id": "avenger_uss_enterprise",
+    "health": 3
+  },
+  {
+    "id": "le_triomphant",
+    "health": 3
+  },
+  {
+    "id": "uss_new_mexico",
+    "health": 2
+  },
+  {
+    "id": "dauntless_uss_saratoga",
+    "health": 2
+  },
+  {
+    "id": "uss_hughes",
+    "health": 2
+  },
+  {
+    "id": "uss_farragut",
+    "health": 2
+  },
+  {
+    "id": "hmas_vampire",
+    "health": 2
+  },
+  {
+    "id": "wildcat_uss_saratoga",
+    "health": 2
+  },
+  {
+    "id": "uss_john_d_ford",
+    "health": 2
+  },
+  {
+    "id": "hms_arrow",
+    "health": 2
+  },
+  {
+    "id": "uss_san_diego",
+    "health": 3
+  },
+  {
+    "id": "uss_new_orleans",
+    "health": 3
+  },
+  {
+    "id": "uss_marblehead",
+    "health": 3
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "uss_kidd",
+    "name": "USS基德",
+    "type": "destroyer",
+    "firepower": 45,
+    "armor": 45,
+    "maneuverability": 60,
+    "buffs": [
+      {
+        "name": "armor",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "rapid_fire",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "avenger_uss_enterprise",
+    "name": "AVENGER鱼雷轰炸机",
+    "type": "aircraft",
+    "firepower": 60,
+    "armor": 25,
+    "maneuverability": 60,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "detectability",
+        "direction": "front_left"
+      },
+      {
+        "name": "attack_aircraft",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "le_triomphant",
+    "name": "凯旋",
+    "type": "destroyer",
+    "firepower": 45,
+    "armor": 30,
+    "maneuverability": 65,
+    "buffs": [
+      {
+        "name": "maneuverability",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "rapid_fire",
+        "direction": "front_left"
+      }
+    ]
+  },
+  {
+    "id": "uss_new_mexico",
+    "name": "USS新墨西哥",
+    "type": "battleship",
+    "firepower": 50,
+    "armor": 50,
+    "maneuverability": 15,
+    "buffs": [
+      {
+        "name": "firepower",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "smoke_screen",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "dauntless_uss_saratoga",
+    "name": "DAUNTLESS俯冲轰炸机",
+    "type": "aircraft",
+    "firepower": 35,
+    "armor": 20,
+    "maneuverability": 55,
+    "buffs": [
+      {
+        "name": "firepower",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "attack_aircraft",
+        "direction": "front_left"
+      }
+    ]
+  },
+  {
+    "id": "uss_hughes",
+    "name": "USS休斯",
+    "type": "destroyer",
+    "firepower": 30,
+    "armor": 30,
+    "maneuverability": 50,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "rapid_fire",
+        "direction": "front"
+      },
+      {
+        "name": "large_caliber",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "uss_farragut",
+    "name": "USS法拉格特",
+    "type": "destroyer",
+    "firepower": 30,
+    "armor": 30,
+    "maneuverability": 45,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "anti_aircraft_fire",
+        "direction": "front_left"
+      },
+      {
+        "name": "large_caliber",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "hmas_vampire",
+    "name": "HMAS吸血鬼",
+    "type": "destroyer",
+    "firepower": 30,
+    "armor": 20,
+    "maneuverability": 50,
+    "buffs": [
+      {
+        "name": "maneuverability",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "rapid_fire",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "wildcat_uss_saratoga",
+    "name": "WILDCAT战斗机",
+    "type": "aircraft",
+    "firepower": 20,
+    "armor": 20,
+    "maneuverability": 60,
+    "buffs": [
+      {
+        "name": "maneuverability",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "anti_aircraft_fire",
+        "direction": "front"
+      }
+    ]
+  },
+  {
+    "id": "uss_john_d_ford",
+    "name": "USS约翰·D.福特",
+    "type": "destroyer",
+    "firepower": 30,
+    "armor": 20,
+    "maneuverability": 50,
+    "buffs": [
+      {
+        "name": "armor",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "large_caliber",
+        "direction": "front_left"
+      }
+    ]
+  },
+  {
+    "id": "hms_arrow",
+    "name": "HMS箭",
+    "type": "destroyer",
+    "firepower": 30,
+    "armor": 30,
+    "maneuverability": 40,
+    "buffs": [
+      {
+        "name": "armor",
+        "direction": "right"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "detectability",
+        "direction": "front"
+      }
+    ]
+  },
+  {
+    "id": "uss_san_diego",
+    "name": "USS圣地亚哥",
+    "type": "cruiser",
+    "firepower": 35,
+    "armor": 35,
+    "maneuverability": 70,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "anti_aircraft_fire",
+        "direction": "front"
+      },
+      {
+        "name": "large_caliber",
+        "direction": "front_right"
+      }
+    ]
+  },
+  {
+    "id": "uss_new_orleans",
+    "name": "USS新奥尔良",
+    "type": "cruiser",
+    "firepower": 45,
+    "armor": 45,
+    "maneuverability": 50,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "smoke_screen",
+        "direction": "front_left"
+      },
+      {
+        "name": "detectability",
+        "direction": "front"
+      }
+    ]
+  },
+  {
+    "id": "uss_marblehead",
+    "name": "USS马布尔黑德",
+    "type": "cruiser",
+    "firepower": 30,
+    "armor": 30,
+    "maneuverability": 40,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "large_caliber",
+        "direction": "front"
+      },
+      {
+        "name": "rapid_fire",
+        "direction": "front_right"
+      }
+    ]
+  }
+]
