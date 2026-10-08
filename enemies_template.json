@@ -1,0 +1,79 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [
+        "smoke_screen"
+      ],
+      "forbidden": [
+        "aircraft"
+      ],
+      "enemies": [
+        {
+          "id": "coastal_artillery",
+          "name": "岸防炮",
+          "type": "fortification",
+          "position": 1,
+          "power": 102,
+          "weaknesses": [
+            "smoke_screen",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "anti_aircraft_battery_1",
+          "name": "防空炮阵地",
+          "type": "fortification",
+          "position": 2,
+          "power": 106,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "kate_torpedo_bomber",
+          "name": "\"KATE\"鱼雷轰炸机",
+          "type": "aircraft",
+          "position": 3,
+          "power": 104,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "anti_aircraft_battery_2",
+          "name": "防空炮阵地",
+          "type": "fortification",
+          "position": 4,
+          "power": 106,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [
+        "large_caliber"
+      ],
+      "forbidden": [
+        "battleship"
+      ],
+      "enemies": []
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "enemies": []
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "enemies": []
+    }
+  }
+}
