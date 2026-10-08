@@ -488,5 +488,25 @@
         "direction": "front_right"
       }
     ]
+  },
+  {
+    "id": "uss_laffey",
+    "name": "USS拉菲",
+    "type": "destroyer",
+    "firepower": 55,
+    "armor": 60,
+    "maneuverability": 65,
+    "buffs": [
+      {
+        "name": "armor",
+        "direction": "left"
+      }
+    ],
+    "debuffs": [
+      {
+        "name": "smoke_screen",
+        "direction": "front"
+      }
+    ]
   }
 ]
