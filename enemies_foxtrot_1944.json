@@ -1,0 +1,372 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "debuff_percent": {},
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-81fe1f08-000e-4edf-80b4-12c6a092b087.png；按用户关卡顺序对应，位置从左到右。敌人名称、类型未展示，留空；power 为截图当前战力读数。属性减益及其他特殊条件未提供，待确认，计算暂按无。禁用类型及敌方额外增益幅度未提供，待确认；计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage1_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 114,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 96,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 112,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 109,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "debuff_percent": {},
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-95ba5114-740b-4cf1-8fc3-9e89099f0a5b.png；按用户关卡顺序对应，位置从左到右。敌人名称、类型未展示，留空；power 为截图当前战力读数。属性减益及其他特殊条件未提供，待确认，计算暂按无。禁用类型及敌方额外增益幅度未提供，待确认；计算暂按无禁用、buff_percent=0，不代表已确认无条件。用户补充：本关每个我方位置均可选一次单属性补强，存活性或机动性 +20%；为可选道具条件，不计入敌方 power。",
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 172,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 154,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 208,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 158,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "debuff_percent": {},
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-5aae9526-c4d6-4577-8498-27d5f225c0db.png；按用户关卡顺序对应，位置从左到右。敌人名称、类型未展示，留空；power 为截图当前战力读数。属性减益及其他特殊条件未提供，待确认，计算暂按无。禁用类型及敌方额外增益幅度未提供，待确认；计算暂按无禁用、buff_percent=0，不代表已确认无条件。用户补充：本关每个我方位置均可选一次单属性补强，存活性或机动性 +20%；为可选道具条件，不计入敌方 power。",
+      "enemies": [
+        {
+          "id": "stage1_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 178,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 197,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 159,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 201,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    },
+    "level4": {
+      "debuff": [],
+      "debuff_percent": {},
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-77e5d692-9464-4c0a-9a4f-53051a0822c9.png；按用户关卡顺序对应，位置从左到右。敌人名称、类型未展示，留空；power 为截图当前战力读数。属性减益及其他特殊条件未提供，待确认，计算暂按无。禁用类型及敌方额外增益幅度未提供，待确认；计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage1_level4_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 174,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level4_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 130,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level4_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 150,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level4_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 162,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        }
+      ]
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [
+        "firepower"
+      ],
+      "debuff_percent": {
+        "firepower": 24
+      },
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-4c360896-5293-4cdc-89e1-d3ff1de9aed4.png；按用户关卡顺序对应，位置从左到右。敌人名称、类型未展示，留空；power 为截图当前战力读数。用户确认火力 -24%；减益与绿色火力增益的顺序未确认，计算排除两者同时生效的排阵。禁用类型及敌方额外增益幅度未提供，待确认；计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 140,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 173,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 140,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 123,
+          "weaknesses": [
+            "anti_aircraft_fire"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "debuff_percent": {},
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-4d0eb7c7-47b8-4b6b-91f6-a310f694c192.png；按用户关卡顺序对应，位置从左到右。敌人名称、类型未展示，留空；power 为截图当前战力读数。属性减益及其他特殊条件未提供，待确认，计算暂按无。禁用类型及敌方额外增益幅度未提供，待确认；计算暂按无禁用、buff_percent=0，不代表已确认无条件。用户补正：2-2 的 2 号敌人战力由截图 172 改为 148，其余不变。",
+      "enemies": [
+        {
+          "id": "stage2_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 145,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 148,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 143,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 148,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        }
+      ]
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [],
+      "debuff_percent": {},
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-6f28e372-5f2c-47ab-81ad-f6b187b5076c.png；按用户关卡顺序对应，位置从左到右。敌人名称、类型未展示，留空；power 为截图当前战力读数。属性减益及其他特殊条件未提供，待确认，计算暂按无。禁用类型及敌方额外增益幅度未提供，待确认；计算暂按无禁用、buff_percent=0，不代表已确认无条件。用户补充：3-1 的我方 2 号位可使用一次补强，使所选单属性 +20%；可选火力、存活性或机动性。此为可选道具条件，不计入敌方 power。",
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 196,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 164,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 203,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 213,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        }
+      ]
+    }
+  }
+}
