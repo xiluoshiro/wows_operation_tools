@@ -567,5 +567,24 @@
         "direction": "front"
       }
     ]
+  },
+  {
+    "id": "uss_missouri",
+    "name": "USS密苏里",
+    "type": "battleship",
+    "firepower": 80,
+    "armor": 80,
+    "maneuverability": 40,
+    "buffs": [],
+    "debuffs": [
+      {
+        "name": "detectability",
+        "direction": "front"
+      },
+      {
+        "name": "large_caliber",
+        "direction": "front_right"
+      }
+    ]
   }
 ]
