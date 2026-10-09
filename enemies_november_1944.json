@@ -1,0 +1,429 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-79abebe2-01ba-4c3a-ba54-0d41e19fe214.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage1_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 92,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 108,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 117,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 91,
+          "weaknesses": [
+            "large_caliber",
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-b763559b-b033-414c-8a59-86c9d23e7751.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 140,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 115,
+          "weaknesses": [
+            "large_caliber",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 128,
+          "weaknesses": [
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 141,
+          "weaknesses": [
+            "large_caliber",
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-361e8186-38db-4e95-a4a7-035f1f0ca99e.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage1_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 151,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 153,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 158,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 127,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-0db2d197-636e-448d-90b6-7543eedcb23a.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 153,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 149,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 148,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 154,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [
+        "firepower"
+      ],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-46219320-56e0-4573-9dbf-c1bc9c0a1000.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "debuff_percent": {
+        "firepower": 24
+      },
+      "enemies": [
+        {
+          "id": "stage2_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 173,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 154,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 133,
+          "weaknesses": [
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 165,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [
+        "armor"
+      ],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-7e1323e5-a00c-4b84-a9f7-e2f428c29a81.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "debuff_percent": {
+        "armor": 24
+      },
+      "enemies": [
+        {
+          "id": "stage2_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 131,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 153,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 157,
+          "weaknesses": [
+            "anti_aircraft_fire"
+          ]
+        },
+        {
+          "id": "stage2_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 144,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [
+        "maneuverability"
+      ],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-1f32afdc-43db-45b8-a23f-c5809eb5ec8c.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "debuff_percent": {
+        "maneuverability": 24
+      },
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 105,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 134,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 92,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 113,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    }
+  },
+  "stage4": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-ef2346ec-0fba-4928-978d-ffffb6543241.png；按用户关卡顺序及补图确认对应关系。敌人名称、类型未展示，留空；power 为截图战力读数。禁用类型及敌方额外增益幅度未提供，计算暂按无禁用、buff_percent=0，不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage4_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 133,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 201,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 173,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 150,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    }
+  }
+}
