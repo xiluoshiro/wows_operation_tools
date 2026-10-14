@@ -3,7 +3,7 @@
     "level1": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-96738f16-8781-4ca6-ab5f-ef0d3427f42a.png；按用户给出的图片顺序对应 1-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-96738f16-8781-4ca6-ab5f-ef0d3427f42a.png；按用户给出的图片顺序对应 1-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage1_level1_enemy_1",
@@ -47,12 +47,48 @@
             "smoke_screen"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     },
     "level2": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-0209a1f6-e367-4762-a842-b1e3c9e6fcfd.png；按用户给出的图片顺序对应 1-2，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-0209a1f6-e367-4762-a842-b1e3c9e6fcfd.png；按用户给出的图片顺序对应 1-2，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage1_level2_enemy_1",
@@ -98,14 +134,50 @@
             "rapid_fire"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     }
   },
   "stage2": {
     "level1": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-02d3f42e-cdec-48d7-a17d-b6ebdaecfe5d.png；按用户给出的图片顺序对应 2-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-02d3f42e-cdec-48d7-a17d-b6ebdaecfe5d.png；按用户给出的图片顺序对应 2-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage2_level1_enemy_1",
@@ -150,14 +222,50 @@
             "large_caliber"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     }
   },
   "stage3": {
     "level1": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-63317ebf-4461-49e5-adae-5a0f5c5c0abf.png；按用户给出的图片顺序对应 3-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-63317ebf-4461-49e5-adae-5a0f5c5c0abf.png；按用户给出的图片顺序对应 3-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage3_level1_enemy_1",
@@ -202,12 +310,48 @@
             "rapid_fire"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     },
     "level2": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-6b35cfa5-7e0b-410b-9940-ab31bee83e97.png；按用户给出的图片顺序对应 3-2，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认敌方全部战斗力 +8%，四个敌人均记录 buff_percent=8。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-6b35cfa5-7e0b-410b-9940-ab31bee83e97.png；按用户给出的图片顺序对应 3-2，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认敌方全部战斗力 +8%，四个敌人均记录 buff_percent=8。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage3_level2_enemy_1",
@@ -254,12 +398,48 @@
           ],
           "buff_percent": 8
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     },
     "level3": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-1f7b9002-2518-4a94-a502-2699a4268332.png；按用户给出的图片顺序对应 3-3，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-1f7b9002-2518-4a94-a502-2699a4268332.png；按用户给出的图片顺序对应 3-3，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage3_level3_enemy_1",
@@ -305,12 +485,48 @@
             "attack_aircraft"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     },
     "level4": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-3df9573a-8cf9-440f-abd8-90619fe37330.png；按用户给出的图片顺序对应 3-4，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认敌方巡洋舰战斗力 +16%；依据截图仅 2 号位战力 187 为绿色，判断本关增益作用于 2 号位，记录 buff_percent=16，其余位置为 0。该增益位置判断依据颜色，敌人类型仍留空。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-3df9573a-8cf9-440f-abd8-90619fe37330.png；按用户给出的图片顺序对应 3-4，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认敌方巡洋舰战斗力 +16%；依据截图仅 2 号位战力 187 为绿色，判断本关增益作用于 2 号位，记录 buff_percent=16，其余位置为 0。该增益位置判断依据颜色，敌人类型仍留空。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage3_level4_enemy_1",
@@ -360,7 +576,43 @@
           ],
           "buff_percent": 0
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     },
     "level5": {
       "debuff": [],
@@ -368,7 +620,7 @@
         "cruiser",
         "destroyer"
       ],
-      "notes": "来源：codex-clipboard-f653bb0b-0e91-44ae-b5dc-2f0170d52f8a.png；按用户给出的图片顺序对应 3-5，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认禁用我方巡洋舰、驱逐舰。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "notes": "来源：codex-clipboard-f653bb0b-0e91-44ae-b5dc-2f0170d52f8a.png；按用户给出的图片顺序对应 3-5，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认禁用我方巡洋舰、驱逐舰。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage3_level5_enemy_1",
@@ -412,14 +664,50 @@
             "detectability"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     }
   },
   "stage4": {
     "level1": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-0ea78a17-5d10-47e1-8bbc-be81c2e68ce4.png；按用户给出的图片顺序对应 4-1，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。",
+      "notes": "来源：codex-clipboard-0ea78a17-5d10-47e1-8bbc-be81c2e68ce4.png；按用户给出的图片顺序对应 4-1，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage4_level1_enemy_1",
@@ -473,12 +761,48 @@
             "smoke_screen"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     },
     "level2": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-7bd83351-295f-4fd2-8f97-da82324b5f51.png；按用户给出的图片顺序对应 4-2，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。",
+      "notes": "来源：codex-clipboard-7bd83351-295f-4fd2-8f97-da82324b5f51.png；按用户给出的图片顺序对应 4-2，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage4_level2_enemy_1",
@@ -530,12 +854,48 @@
             "attack_aircraft"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     },
     "level3": {
       "debuff": [],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-ff3ce4ae-2bbe-4787-9b2d-d1eb7097f20c.png；按用户给出的图片顺序对应 4-3，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。",
+      "notes": "来源：codex-clipboard-ff3ce4ae-2bbe-4787-9b2d-d1eb7097f20c.png；按用户给出的图片顺序对应 4-3，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage4_level3_enemy_1",
@@ -589,7 +949,43 @@
             "rapid_fire"
           ]
         }
-      ]
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
     }
   },
   "stage5": {
@@ -599,7 +995,7 @@
         "armor"
       ],
       "forbidden": [],
-      "notes": "来源：codex-clipboard-2283c551-2f0e-4b9b-a904-28884fb2ad86.png；按用户给出的图片顺序对应 5-1，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。用户确认我方火力 -12%、存活性 -12%；其他战斗条件及禁用条件未提供，待确认，空禁用列表不代表已确认无禁用。",
+      "notes": "来源：codex-clipboard-2283c551-2f0e-4b9b-a904-28884fb2ad86.png；按用户给出的图片顺序对应 5-1，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。用户确认我方火力 -12%、存活性 -12%；其他战斗条件及禁用条件未提供，待确认，空禁用列表不代表已确认无禁用。用户澄清：普通补强仅 5-1 的 2、3 号位禁用，其余位置可用；特殊补强所有位置均可用。沿用已有普通四选一、特殊四选一规则；优先最少特殊次数，再最少普通次数。",
       "enemies": [
         {
           "id": "stage5_level1_enemy_1",
@@ -654,6 +1050,40 @@
       "debuff_percent": {
         "firepower": 12,
         "armor": 12
+      },
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 2,
+        "attributes": [
+          "firepower",
+          "armor",
+          "maneuverability"
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ],
+        "positions": [
+          1,
+          4
+        ]
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
       }
     }
   }
