@@ -1,0 +1,660 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-96738f16-8781-4ca6-ab5f-ef0d3427f42a.png；按用户给出的图片顺序对应 1-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage1_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 172,
+          "weaknesses": [
+            "anti_aircraft_fire"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 192,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 201,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 206,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-0209a1f6-e367-4762-a842-b1e3c9e6fcfd.png；按用户给出的图片顺序对应 1-2，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 102,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 83,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 96,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 102,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-02d3f42e-cdec-48d7-a17d-b6ebdaecfe5d.png；按用户给出的图片顺序对应 2-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 155,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 155,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 135,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 123,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        }
+      ]
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-63317ebf-4461-49e5-adae-5a0f5c5c0abf.png；按用户给出的图片顺序对应 3-1，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 140,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 134,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 155,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 126,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-6b35cfa5-7e0b-410b-9940-ab31bee83e97.png；按用户给出的图片顺序对应 3-2，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认敌方全部战斗力 +8%，四个敌人均记录 buff_percent=8。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage3_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 186,
+          "weaknesses": [
+            "detectability"
+          ],
+          "buff_percent": 8
+        },
+        {
+          "id": "stage3_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 201,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ],
+          "buff_percent": 8
+        },
+        {
+          "id": "stage3_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 185,
+          "weaknesses": [
+            "detectability"
+          ],
+          "buff_percent": 8
+        },
+        {
+          "id": "stage3_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 179,
+          "weaknesses": [
+            "detectability"
+          ],
+          "buff_percent": 8
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-1f7b9002-2518-4a94-a502-2699a4268332.png；按用户给出的图片顺序对应 3-3，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage3_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 147,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage3_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 128,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage3_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 164,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage3_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 131,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    },
+    "level4": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-3df9573a-8cf9-440f-abd8-90619fe37330.png；按用户给出的图片顺序对应 3-4，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认敌方巡洋舰战斗力 +16%；依据截图仅 2 号位战力 187 为绿色，判断本关增益作用于 2 号位，记录 buff_percent=16，其余位置为 0。该增益位置判断依据颜色，敌人类型仍留空。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage3_level4_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 121,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ],
+          "buff_percent": 0
+        },
+        {
+          "id": "stage3_level4_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 187,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ],
+          "buff_percent": 16
+        },
+        {
+          "id": "stage3_level4_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 159,
+          "weaknesses": [
+            "smoke_screen",
+            "attack_aircraft"
+          ],
+          "buff_percent": 0
+        },
+        {
+          "id": "stage3_level4_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 173,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ],
+          "buff_percent": 0
+        }
+      ]
+    },
+    "level5": {
+      "debuff": [],
+      "forbidden": [
+        "cruiser",
+        "destroyer"
+      ],
+      "notes": "来源：codex-clipboard-f653bb0b-0e91-44ae-b5dc-2f0170d52f8a.png；按用户给出的图片顺序对应 3-5，敌人位置从左到右。敌人名称、类型未展示，留空；power 保留截图显示战力，已包含本关敌方增益，不再次乘增益系数。用户确认禁用我方巡洋舰、驱逐舰。除用户明确给出的条件外，其他战斗条件及敌方增益幅度未提供，待确认；空条件列表与未填写的 buff_percent 不代表已确认无条件或无增益。",
+      "enemies": [
+        {
+          "id": "stage3_level5_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 166,
+          "weaknesses": [
+            "anti_aircraft_fire"
+          ]
+        },
+        {
+          "id": "stage3_level5_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 160,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level5_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 189,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage3_level5_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 208,
+          "weaknesses": [
+            "detectability"
+          ]
+        }
+      ]
+    }
+  },
+  "stage4": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-0ea78a17-5d10-47e1-8bbc-be81c2e68ce4.png；按用户给出的图片顺序对应 4-1，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage4_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 149,
+          "display_power": 160,
+          "buff_percent": 0,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 164,
+          "display_power": 177,
+          "buff_percent": 0,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 171,
+          "display_power": 184,
+          "buff_percent": 0,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 175,
+          "display_power": 188,
+          "buff_percent": 0,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-7bd83351-295f-4fd2-8f97-da82324b5f51.png；按用户给出的图片顺序对应 4-2，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage4_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 172,
+          "display_power": 185,
+          "buff_percent": 0,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage4_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 178,
+          "display_power": 192,
+          "buff_percent": 0,
+          "weaknesses": [
+            "anti_aircraft_fire"
+          ]
+        },
+        {
+          "id": "stage4_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 188,
+          "display_power": 203,
+          "buff_percent": 0,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 197,
+          "display_power": 212,
+          "buff_percent": 0,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-ff3ce4ae-2bbe-4787-9b2d-d1eb7097f20c.png；按用户给出的图片顺序对应 4-3，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。其他战斗条件及禁用条件未提供，待确认，空条件列表不代表已确认无条件。",
+      "enemies": [
+        {
+          "id": "stage4_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 137,
+          "display_power": 147,
+          "buff_percent": 0,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 141,
+          "display_power": 152,
+          "buff_percent": 0,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 135,
+          "display_power": 145,
+          "buff_percent": 0,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 146,
+          "display_power": 157,
+          "buff_percent": 0,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    }
+  },
+  "stage5": {
+    "level1": {
+      "debuff": [
+        "firepower",
+        "armor"
+      ],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-2283c551-2f0e-4b9b-a904-28884fb2ad86.png；按用户给出的图片顺序对应 5-1，敌人位置从左到右。用户要求敌方战力除以 1.08；power 为截图战力 /1.08 后向上取整，display_power 保留截图原读数。该 +8% 已除去，buff_percent=0，不重复还原。敌人名称、类型未展示，留空。用户确认我方火力 -12%、存活性 -12%；其他战斗条件及禁用条件未提供，待确认，空禁用列表不代表已确认无禁用。",
+      "enemies": [
+        {
+          "id": "stage5_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 167,
+          "display_power": 180,
+          "buff_percent": 0,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage5_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 211,
+          "display_power": 227,
+          "buff_percent": 0,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage5_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 171,
+          "display_power": 184,
+          "buff_percent": 0,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage5_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 190,
+          "display_power": 205,
+          "buff_percent": 0,
+          "weaknesses": [
+            "detectability"
+          ]
+        }
+      ],
+      "debuff_percent": {
+        "firepower": 12,
+        "armor": 12
+      }
+    }
+  }
+}
