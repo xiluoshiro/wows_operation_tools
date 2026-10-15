@@ -1,0 +1,564 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-29bced07-0a4f-4eac-9ce4-5b4f2e6e9cb6.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型、属性条件及其他敌方增益暂按无处理。本关我方绿色增益无效。",
+      "enemies": [
+        {
+          "id": "stage1_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 113,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 97,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 103,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 106,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ],
+      "disable_buffs": true
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-5120fc88-a9d3-4e83-9558-f92ba31a539e.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型、属性条件及其他敌方增益暂按无处理。",
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 134,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 161,
+          "weaknesses": [
+            "smoke_screen",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 127,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 164,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-50eef4cf-8f41-4f52-918c-0a0e58c264bf.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型、属性条件及其他敌方增益暂按无处理。",
+      "enemies": [
+        {
+          "id": "stage1_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 199,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 211,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 175,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 202,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        }
+      ]
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-eb221b8f-5204-40bd-9bfa-1f9d52c724d9.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型、属性条件及其他敌方增益暂按无处理。",
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 141,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 157,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 158,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 145,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        }
+      ]
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-ca84bcb3-33db-43ca-b5d2-68f9d699163f.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型、属性条件及其他敌方增益暂按无处理。用户指定敌驱逐舰 +16%；截图仅 2、3 号位战力为绿色，按这两位录入 buff_percent=16，类型仍保留 null。",
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 147,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 179,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ],
+          "buff_percent": 16
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 169,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ],
+          "buff_percent": 16
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 116,
+          "weaknesses": [
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-9fbf23a8-30aa-4405-9303-3c3e02f39dea.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型、属性条件及其他敌方增益暂按无处理。",
+      "enemies": [
+        {
+          "id": "stage3_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 205,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 201,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage3_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 204,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage3_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 195,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 4,
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-7ea43641-9ade-4900-828a-92695700cc8c.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型、属性条件及其他敌方增益暂按无处理。用户指定敌战列舰 +16%；截图仅 3 号位战力为绿色，对其录入 buff_percent=16，类型仍保留 null。",
+      "enemies": [
+        {
+          "id": "stage3_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 139,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 142,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 193,
+          "weaknesses": [
+            "smoke_screen",
+            "attack_aircraft"
+          ],
+          "buff_percent": 16
+        },
+        {
+          "id": "stage3_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 151,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        }
+      ]
+    }
+  },
+  "stage4": {
+    "level1": {
+      "debuff": [
+        "armor",
+        "maneuverability"
+      ],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 1,
+        "positions": [
+          1
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-6ed1981b-fd8a-440c-9969-29e12d78b581.png；按用户要求将八张图倒序对应关卡，图内位置仍从左到右。power 保留截图读数，敌人名称及类型未显示，留 null。未提供的禁用类型及其他敌方增益暂按无处理。用户指定 2—4 号位不能使用普通补强，仅 1 号位可用。用户补充：本关我方存活性 −12%、机动性 −12%；前七关出战记录及本关战前血量固定沿用既有表格。用户确认允许既有四选一特殊补强，优先最少特殊补强次数。",
+      "enemies": [
+        {
+          "id": "stage4_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 187,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 216,
+          "weaknesses": [
+            "smoke_screen",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 204,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 207,
+          "weaknesses": [
+            "detectability"
+          ]
+        }
+      ],
+      "debuff_percent": {
+        "armor": 12,
+        "maneuverability": 12
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,988 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-42f4dac9-cbc5-47ae-9a85-97b9617c656e.png；按用户顺序对应 1-1，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage1_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 114,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 119,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 100,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 98,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "rapid_fire"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    },
+    "level2": {
+      "debuff": [
+        "firepower"
+      ],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-5d02f856-2526-44be-9b56-cfcdb3c4e136.png；按用户顺序对应 1-2，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。 本关我方火力 −24%。",
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 184,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 195,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 186,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 191,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        }
+      ],
+      "debuff_percent": {
+        "firepower": 24
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-cd06355c-8e30-4e58-873a-35fa6e9b17f3.png；按用户顺序对应 2-1，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 180,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 205,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 196,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 196,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-054179ae-d8ea-400d-8e06-8796e0ecc94c.png；按用户顺序对应 2-2，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage2_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 140,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 148,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 152,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 156,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    },
+    "level3": {
+      "debuff": [
+        "maneuverability"
+      ],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-7ce4f007-8fca-42d3-b539-ccbc99f34775.png；按用户顺序对应 2-3，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。 本关我方机动性 −24%。",
+      "enemies": [
+        {
+          "id": "stage2_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 152,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 143,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 139,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage2_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 122,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        }
+      ],
+      "debuff_percent": {
+        "maneuverability": 24
+      },
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-b2226df0-d160-45b8-a987-0adfb9fab50b.png；按用户顺序对应 3-1，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 179,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 185,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 172,
+          "weaknesses": [
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 200,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [
+        "battleship",
+        "destroyer"
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-9c09cc46-6b64-4a01-851e-2c44dcd1c7e8.png；按用户顺序对应 3-2，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。 本关禁用战列舰、驱逐舰。",
+      "enemies": [
+        {
+          "id": "stage3_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 135,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage3_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 168,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage3_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 143,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 134,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    }
+  },
+  "stage4": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [
+        "cruiser"
+      ],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-19983111-1fd1-43e3-a73c-287b7efc23e2.png；按用户顺序对应 4-1，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。 本关禁用巡洋舰。",
+      "enemies": [
+        {
+          "id": "stage4_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 138,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 159,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 140,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage4_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 154,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-f07d5573-a42d-4239-9798-33e809202157.png；按用户顺序对应 4-2，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage4_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 142,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage4_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 143,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        },
+        {
+          "id": "stage4_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 148,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 156,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-787f0075-7aa7-4213-b523-801b8397b11d.png；按用户顺序对应 4-3，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage4_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 151,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage4_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 123,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 135,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage4_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 129,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    },
+    "level4": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-45e52653-fa28-49e1-ad3c-12795bf854dc.png；按用户顺序对应 4-4，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage4_level4_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 199,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level4_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 218,
+          "weaknesses": [
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage4_level4_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 201,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage4_level4_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 185,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    }
+  },
+  "stage5": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "reinforcement": {
+        "percent": 20,
+        "max_units": 3,
+        "positions": [
+          1,
+          3,
+          4
+        ],
+        "options": [
+          "firepower",
+          "armor",
+          "maneuverability",
+          "double_buffs"
+        ]
+      },
+      "notes": "来源：codex-clipboard-9394802c-10a2-4fc8-b2c3-8fce4f98c008.png；按用户顺序对应 5-1，位置从左到右。敌人名称、类型未展示，留 null；power 为截图读数。仅录入明确给出的条件；未提供的敌方增益及其他条件暂按无处理。按用户限制，所有关卡 2 号位不使用普通补强；普通补强为三维单属性 +20% 或增益翻倍，二者互斥；特殊补强按既有四选一模型计算，优先减少特殊补强。",
+      "enemies": [
+        {
+          "id": "stage5_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 207,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage5_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 225,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage5_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 195,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage5_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 181,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        }
+      ],
+      "special_reinforcement": {
+        "options": [
+          "stats_40_disable_effects",
+          "double_debuffs",
+          "ignore_weakness",
+          "health_plus_2"
+        ],
+        "positions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "max_units": 4
+      }
+    }
+  }
+}
