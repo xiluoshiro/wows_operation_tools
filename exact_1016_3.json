@@ -1,0 +1,36 @@
+{
+  "status": "OPTIMAL",
+  "complete_card_pool": true,
+  "dominance": "Only dominated ordinary choices removed: smaller attribute gains or ineffective green doubling.",
+  "condition_order": "both",
+  "minimum_margin": 0,
+  "max_risk": 0,
+  "strict_positive_margin": true,
+  "objective_weight": 49,
+  "objective": 53,
+  "cost": [
+    1,
+    4
+  ],
+  "best_objective_bound": 53.0,
+  "optimal": true,
+  "retained_seed": false,
+  "special_limit": null,
+  "seconds": 300.0,
+  "workers": 8,
+  "elapsed": 37.26500000001397,
+  "branches": 4418,
+  "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 53\nbest_bound: 53\nintegers: 1871\nbooleans: 158577\nconflicts: 24\nbranches: 4418\npropagations: 8865678\ninteger_propagations: 639396\nrestarts: 0\nlp_iterations: 0\nwalltime: 37.092\nusertime: 37.092\ndeterministic_time: 147.887\ngap_integral: 94.032\nsolution_fingerprint: 0xea1cc40a95ed1254\n",
+  "hashes": {
+    "D:\\Code\\tmp\\wows_operation\\units.json": "9bf4ea092d41457a54d7f3bafd954ed93a2aa73d7dc77140e0bd44bd24868225",
+    "D:\\Code\\tmp\\wows_operation\\enemies_1016_3.json": "c339445a7d213083d45aa3682df73fa73f5635a06886f6acae29e929e03bebd9",
+    "D:\\Code\\tmp\\wows_operation\\battle_planner.py": "ad370a11f2fc6ba5061acf49c756df3a532de3b880d51b76d079ffb3c8899b49",
+    "D:\\Code\\tmp\\wows_operation\\battle_exact.py": "1e37cbc255f1b007421b0ceb1a55571372276a7f548604ff53a8bb737da55077",
+    "D:\\Code\\tmp\\wows_operation\\battle_verify.py": "da56be2578a36bf94d6a9e2f6e6eed7c04a5a464304b134fb896b058c7944c08"
+  },
+  "seed_sha256": "89fb980d4af638ae7d94ffc25dd280b5510c042f4dbf1843b6003d17f175314c",
+  "solver_version": "OR-Tools CP-SAT 9.15.6755",
+  "fraction_verified": true,
+  "minimum_margin_exact": "1/5",
+  "plan_sha256": "7f56fd5e48cb99700cd9771ab8835351b66660b7c3f804994efb33f46c18489d"
+}

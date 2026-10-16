@@ -1,0 +1,1102 @@
+{
+  "positions": [
+    [
+      "stage1",
+      "level1",
+      1,
+      "uss_cleveland",
+      3,
+      135,
+      121.6,
+      13.4
+    ],
+    [
+      "stage1",
+      "level1",
+      2,
+      "dauntless_uss_saratoga",
+      3,
+      116,
+      114.4,
+      1.6
+    ],
+    [
+      "stage1",
+      "level1",
+      3,
+      "hmas_vampire",
+      3,
+      114,
+      108.8,
+      5.2
+    ],
+    [
+      "stage1",
+      "level1",
+      4,
+      "hr_ms_de_ruyter",
+      3,
+      102,
+      100.0,
+      2.0
+    ],
+    [
+      "stage1",
+      "level2",
+      1,
+      "wildcat_uss_saratoga",
+      3,
+      96,
+      89.6,
+      6.4
+    ],
+    [
+      "stage1",
+      "level2",
+      2,
+      "uss_laffey",
+      3,
+      170,
+      119.0,
+      51.0
+    ],
+    [
+      "stage1",
+      "level2",
+      3,
+      "uss_hughes",
+      3,
+      100,
+      80.0,
+      20.0
+    ],
+    [
+      "stage1",
+      "level2",
+      4,
+      "uss_farragut",
+      3,
+      95,
+      92.8,
+      2.2
+    ],
+    [
+      "stage1",
+      "level3",
+      1,
+      "uss_johnston",
+      3,
+      170,
+      162.4,
+      7.6
+    ],
+    [
+      "stage1",
+      "level3",
+      2,
+      "uss_alaska",
+      3,
+      208,
+      194.0,
+      14.0
+    ],
+    [
+      "stage1",
+      "level3",
+      3,
+      "helldiver_uss_essex",
+      3,
+      170,
+      158.4,
+      11.6
+    ],
+    [
+      "stage1",
+      "level3",
+      4,
+      "corsair_uss_essex",
+      3,
+      189,
+      187.0,
+      2.0
+    ],
+    [
+      "stage2",
+      "level1",
+      1,
+      "helldiver_uss_essex",
+      2,
+      151,
+      132.8,
+      18.2
+    ],
+    [
+      "stage2",
+      "level1",
+      2,
+      "avenger_uss_enterprise",
+      3,
+      135,
+      120.0,
+      15.0
+    ],
+    [
+      "stage2",
+      "level1",
+      3,
+      "hellcat_uss_enterprise",
+      3,
+      130,
+      127.2,
+      2.8
+    ],
+    [
+      "stage2",
+      "level1",
+      4,
+      "corsair_uss_essex",
+      2,
+      151,
+      147.2,
+      3.8
+    ],
+    [
+      "stage2",
+      "level2",
+      1,
+      "uss_san_diego",
+      3,
+      140,
+      130.37037037037038,
+      9.62962962962963
+    ],
+    [
+      "stage2",
+      "level2",
+      2,
+      "hms_king_george_v",
+      3,
+      145,
+      130.37037037037038,
+      14.62962962962963
+    ],
+    [
+      "stage2",
+      "level2",
+      3,
+      "uss_alaska",
+      2,
+      151,
+      140.96296296296296,
+      10.037037037037036
+    ],
+    [
+      "stage2",
+      "level2",
+      4,
+      "uss_colorado",
+      3,
+      140,
+      138.5185185185185,
+      1.4814814814814814
+    ],
+    [
+      "stage2",
+      "level3",
+      1,
+      "uss_benson",
+      3,
+      130,
+      127.2,
+      2.8
+    ],
+    [
+      "stage2",
+      "level3",
+      2,
+      "uss_new_orleans",
+      3,
+      130,
+      115.2,
+      14.8
+    ],
+    [
+      "stage2",
+      "level3",
+      3,
+      "uss_kidd",
+      3,
+      153,
+      141.0,
+      12.0
+    ],
+    [
+      "stage2",
+      "level3",
+      4,
+      "uss_new_mexico",
+      3,
+      120,
+      106.4,
+      13.6
+    ],
+    [
+      "stage2",
+      "level4",
+      1,
+      "uss_missouri",
+      3,
+      190,
+      171.0,
+      19.0
+    ],
+    [
+      "stage2",
+      "level4",
+      2,
+      "uss_north_carolina",
+      3,
+      196,
+      189.51724137931035,
+      6.482758620689655
+    ],
+    [
+      "stage2",
+      "level4",
+      3,
+      "uss_johnston",
+      2,
+      168,
+      163.2,
+      4.8
+    ],
+    [
+      "stage2",
+      "level4",
+      4,
+      "uss_laffey",
+      2,
+      167,
+      160.0,
+      7.0
+    ],
+    [
+      "stage3",
+      "level1",
+      1,
+      "hms_king_george_v",
+      2,
+      129,
+      126.4,
+      2.6
+    ],
+    [
+      "stage3",
+      "level1",
+      2,
+      "uss_colorado",
+      2,
+      124,
+      117.6,
+      6.4
+    ],
+    [
+      "stage3",
+      "level1",
+      3,
+      "uss_san_diego",
+      2,
+      124,
+      121.6,
+      2.4
+    ],
+    [
+      "stage3",
+      "level1",
+      4,
+      "uss_laffey",
+      1,
+      134,
+      126.4,
+      7.6
+    ],
+    [
+      "stage3",
+      "level2",
+      1,
+      "uss_baltimore",
+      3,
+      169,
+      160.8,
+      8.2
+    ],
+    [
+      "stage3",
+      "level2",
+      2,
+      "le_triomphant",
+      3,
+      142,
+      140.0,
+      2.0
+    ],
+    [
+      "stage3",
+      "level2",
+      3,
+      "uss_cleveland",
+      2,
+      132,
+      131.2,
+      0.8
+    ],
+    [
+      "stage3",
+      "level2",
+      4,
+      "helldiver_uss_essex",
+      1,
+      138,
+      133.6,
+      4.4
+    ],
+    [
+      "stage3",
+      "level3",
+      1,
+      "uss_kidd",
+      2,
+      114,
+      110.4,
+      3.6
+    ],
+    [
+      "stage3",
+      "level3",
+      2,
+      "uss_johnston",
+      1,
+      135,
+      131.2,
+      3.8
+    ],
+    [
+      "stage3",
+      "level3",
+      3,
+      "hms_repulse",
+      3,
+      103,
+      100.8,
+      2.2
+    ],
+    [
+      "stage3",
+      "level3",
+      4,
+      "uss_new_orleans",
+      2,
+      115,
+      108.8,
+      6.2
+    ],
+    [
+      "stage3",
+      "level4",
+      1,
+      "corsair_uss_essex",
+      1,
+      134,
+      129.6,
+      4.4
+    ],
+    [
+      "stage3",
+      "level4",
+      2,
+      "uss_alaska",
+      1,
+      134,
+      97.6,
+      36.4
+    ],
+    [
+      "stage3",
+      "level4",
+      3,
+      "hellcat_uss_enterprise",
+      2,
+      121,
+      120.8,
+      0.2
+    ],
+    [
+      "stage3",
+      "level4",
+      4,
+      "hmas_hobart",
+      3,
+      95,
+      93.6,
+      1.4
+    ],
+    [
+      "stage4",
+      "level1",
+      1,
+      "hellcat_uss_enterprise",
+      1,
+      102,
+      92.4,
+      9.6
+    ],
+    [
+      "stage4",
+      "level1",
+      2,
+      "uss_north_carolina",
+      2,
+      160,
+      159.2,
+      0.8
+    ],
+    [
+      "stage4",
+      "level1",
+      3,
+      "uss_baltimore",
+      2,
+      151,
+      144.6,
+      6.4
+    ],
+    [
+      "stage4",
+      "level1",
+      4,
+      "uss_missouri",
+      2,
+      191,
+      178.0,
+      13.0
+    ]
+  ],
+  "exact_rationals": [
+    {
+      "stage": "stage1",
+      "level": "level1",
+      "position": 1,
+      "enemy": "608/5",
+      "margin": "67/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level1",
+      "position": 2,
+      "enemy": "572/5",
+      "margin": "8/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level1",
+      "position": 3,
+      "enemy": "544/5",
+      "margin": "26/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level1",
+      "position": 4,
+      "enemy": "100",
+      "margin": "2",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level2",
+      "position": 1,
+      "enemy": "448/5",
+      "margin": "32/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level2",
+      "position": 2,
+      "enemy": "119",
+      "margin": "51",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level2",
+      "position": 3,
+      "enemy": "80",
+      "margin": "20",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level2",
+      "position": 4,
+      "enemy": "464/5",
+      "margin": "11/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level3",
+      "position": 1,
+      "enemy": "812/5",
+      "margin": "38/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level3",
+      "position": 2,
+      "enemy": "194",
+      "margin": "14",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level3",
+      "position": 3,
+      "enemy": "792/5",
+      "margin": "58/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage1",
+      "level": "level3",
+      "position": 4,
+      "enemy": "187",
+      "margin": "2",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level1",
+      "position": 1,
+      "enemy": "664/5",
+      "margin": "91/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage2",
+      "level": "level1",
+      "position": 2,
+      "enemy": "120",
+      "margin": "15",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level1",
+      "position": 3,
+      "enemy": "636/5",
+      "margin": "14/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level1",
+      "position": 4,
+      "enemy": "736/5",
+      "margin": "19/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage2",
+      "level": "level2",
+      "position": 1,
+      "enemy": "3520/27",
+      "margin": "260/27",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level2",
+      "position": 2,
+      "enemy": "3520/27",
+      "margin": "395/27",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level2",
+      "position": 3,
+      "enemy": "3806/27",
+      "margin": "271/27",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage2",
+      "level": "level2",
+      "position": 4,
+      "enemy": "3740/27",
+      "margin": "40/27",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level3",
+      "position": 1,
+      "enemy": "636/5",
+      "margin": "14/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level3",
+      "position": 2,
+      "enemy": "576/5",
+      "margin": "74/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level3",
+      "position": 3,
+      "enemy": "141",
+      "margin": "12",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level3",
+      "position": 4,
+      "enemy": "532/5",
+      "margin": "68/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level4",
+      "position": 1,
+      "enemy": "171",
+      "margin": "19",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level4",
+      "position": 2,
+      "enemy": "5496/29",
+      "margin": "188/29",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage2",
+      "level": "level4",
+      "position": 3,
+      "enemy": "816/5",
+      "margin": "24/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage2",
+      "level": "level4",
+      "position": 4,
+      "enemy": "160",
+      "margin": "7",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level1",
+      "position": 1,
+      "enemy": "632/5",
+      "margin": "13/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level1",
+      "position": 2,
+      "enemy": "588/5",
+      "margin": "32/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level1",
+      "position": 3,
+      "enemy": "608/5",
+      "margin": "12/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level1",
+      "position": 4,
+      "enemy": "632/5",
+      "margin": "38/5",
+      "effective_health": 1
+    },
+    {
+      "stage": "stage3",
+      "level": "level2",
+      "position": 1,
+      "enemy": "804/5",
+      "margin": "41/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage3",
+      "level": "level2",
+      "position": 2,
+      "enemy": "140",
+      "margin": "2",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage3",
+      "level": "level2",
+      "position": 3,
+      "enemy": "656/5",
+      "margin": "4/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level2",
+      "position": 4,
+      "enemy": "668/5",
+      "margin": "22/5",
+      "effective_health": 1
+    },
+    {
+      "stage": "stage3",
+      "level": "level3",
+      "position": 1,
+      "enemy": "552/5",
+      "margin": "18/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level3",
+      "position": 2,
+      "enemy": "656/5",
+      "margin": "19/5",
+      "effective_health": 1
+    },
+    {
+      "stage": "stage3",
+      "level": "level3",
+      "position": 3,
+      "enemy": "504/5",
+      "margin": "11/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage3",
+      "level": "level3",
+      "position": 4,
+      "enemy": "544/5",
+      "margin": "31/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level4",
+      "position": 1,
+      "enemy": "648/5",
+      "margin": "22/5",
+      "effective_health": 1
+    },
+    {
+      "stage": "stage3",
+      "level": "level4",
+      "position": 2,
+      "enemy": "488/5",
+      "margin": "182/5",
+      "effective_health": 1
+    },
+    {
+      "stage": "stage3",
+      "level": "level4",
+      "position": 3,
+      "enemy": "604/5",
+      "margin": "1/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage3",
+      "level": "level4",
+      "position": 4,
+      "enemy": "468/5",
+      "margin": "7/5",
+      "effective_health": 3
+    },
+    {
+      "stage": "stage4",
+      "level": "level1",
+      "position": 1,
+      "enemy": "462/5",
+      "margin": "48/5",
+      "effective_health": 1
+    },
+    {
+      "stage": "stage4",
+      "level": "level1",
+      "position": 2,
+      "enemy": "796/5",
+      "margin": "4/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage4",
+      "level": "level1",
+      "position": 3,
+      "enemy": "723/5",
+      "margin": "32/5",
+      "effective_health": 2
+    },
+    {
+      "stage": "stage4",
+      "level": "level1",
+      "position": 4,
+      "enemy": "178",
+      "margin": "13",
+      "effective_health": 2
+    }
+  ],
+  "position_count": 48,
+  "minimum_margin": 0.2,
+  "minimum_margin_exact": "1/5",
+  "ordinary_count": 4,
+  "special_count": 1,
+  "risk_count": 0,
+  "final_health": {
+    "uss_kidd": 1,
+    "avenger_uss_enterprise": 2,
+    "le_triomphant": 2,
+    "uss_new_mexico": 2,
+    "dauntless_uss_saratoga": 2,
+    "uss_hughes": 2,
+    "uss_farragut": 2,
+    "hmas_vampire": 2,
+    "wildcat_uss_saratoga": 2,
+    "uss_john_d_ford": 3,
+    "hms_arrow": 3,
+    "uss_san_diego": 1,
+    "uss_new_orleans": 1,
+    "uss_marblehead": 3,
+    "hr_ms_de_ruyter": 2,
+    "uss_north_carolina": 1,
+    "uss_benson": 2,
+    "hms_king_george_v": 1,
+    "uss_colorado": 1,
+    "hellcat_uss_enterprise": 0,
+    "uss_johnston": 0,
+    "uss_cleveland": 1,
+    "helldiver_uss_essex": 0,
+    "uss_baltimore": 1,
+    "corsair_uss_essex": 0,
+    "uss_laffey": 0,
+    "hms_repulse": 2,
+    "hmas_hobart": 2,
+    "uss_alaska": 0,
+    "uss_missouri": 1
+  },
+  "summary": [
+    {
+      "stage": "stage1",
+      "level": "level1",
+      "units": [
+        "USS克利夫兰",
+        "DAUNTLESS俯冲轰炸机",
+        "HMAS吸血鬼",
+        "HR.MS.德·鲁伊特"
+      ],
+      "margins": [
+        "13.4",
+        "1.6",
+        "5.2",
+        "2"
+      ]
+    },
+    {
+      "stage": "stage1",
+      "level": "level2",
+      "units": [
+        "WILDCAT战斗机",
+        "USS拉菲",
+        "USS休斯",
+        "USS法拉格特"
+      ],
+      "margins": [
+        "6.4",
+        "51",
+        "20",
+        "2.2"
+      ]
+    },
+    {
+      "stage": "stage1",
+      "level": "level3",
+      "units": [
+        "USS约翰斯顿",
+        "USS阿拉斯加",
+        "HELLDIVER俯冲轰炸机",
+        "CORSAIR战斗机〔机动性 +20%〕"
+      ],
+      "margins": [
+        "7.6",
+        "14",
+        "11.6",
+        "2"
+      ]
+    },
+    {
+      "stage": "stage2",
+      "level": "level1",
+      "units": [
+        "HELLDIVER俯冲轰炸机",
+        "AVENGER鱼雷轰炸机",
+        "HELLCAT战斗机",
+        "CORSAIR战斗机"
+      ],
+      "margins": [
+        "18.2",
+        "15",
+        "2.8",
+        "3.8"
+      ]
+    },
+    {
+      "stage": "stage2",
+      "level": "level2",
+      "units": [
+        "USS圣地亚哥",
+        "HMS英王乔治五世",
+        "USS阿拉斯加",
+        "USS科罗拉多"
+      ],
+      "margins": [
+        "9.62962963",
+        "14.62962963",
+        "10.03703704",
+        "1.481481481"
+      ]
+    },
+    {
+      "stage": "stage2",
+      "level": "level3",
+      "units": [
+        "USS本森",
+        "USS新奥尔良",
+        "USS基德",
+        "USS新墨西哥"
+      ],
+      "margins": [
+        "2.8",
+        "14.8",
+        "12",
+        "13.6"
+      ]
+    },
+    {
+      "stage": "stage2",
+      "level": "level4",
+      "units": [
+        "USS密苏里",
+        "USS北卡罗来纳〔火力 +20%〕",
+        "USS约翰斯顿",
+        "USS拉菲"
+      ],
+      "margins": [
+        "19",
+        "6.482758621",
+        "4.8",
+        "7"
+      ]
+    },
+    {
+      "stage": "stage3",
+      "level": "level1",
+      "units": [
+        "HMS英王乔治五世",
+        "USS科罗拉多",
+        "USS圣地亚哥",
+        "USS拉菲"
+      ],
+      "margins": [
+        "2.6",
+        "6.4",
+        "2.4",
+        "7.6"
+      ]
+    },
+    {
+      "stage": "stage3",
+      "level": "level2",
+      "units": [
+        "USS巴尔的摩〔火力 +20%〕",
+        "凯旋〔机动性 +20%〕",
+        "USS克利夫兰",
+        "HELLDIVER俯冲轰炸机"
+      ],
+      "margins": [
+        "8.2",
+        "2",
+        "0.8",
+        "4.4"
+      ]
+    },
+    {
+      "stage": "stage3",
+      "level": "level3",
+      "units": [
+        "USS基德",
+        "USS约翰斯顿",
+        "HMS反击",
+        "USS新奥尔良"
+      ],
+      "margins": [
+        "3.6",
+        "3.8",
+        "2.2",
+        "6.2"
+      ]
+    },
+    {
+      "stage": "stage3",
+      "level": "level4",
+      "units": [
+        "CORSAIR战斗机",
+        "USS阿拉斯加",
+        "HELLCAT战斗机",
+        "HMAS霍巴特"
+      ],
+      "margins": [
+        "4.4",
+        "36.4",
+        "0.2",
+        "1.4"
+      ]
+    },
+    {
+      "stage": "stage4",
+      "level": "level1",
+      "units": [
+        "HELLCAT战斗机",
+        "USS北卡罗来纳〔特殊：红色减益翻倍〕",
+        "USS巴尔的摩",
+        "USS密苏里"
+      ],
+      "margins": [
+        "9.6",
+        "0.8",
+        "6.4",
+        "13"
+      ]
+    }
+  ]
+}

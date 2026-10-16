@@ -1,0 +1,374 @@
+{
+  "stage1": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-69dcb974-7273-46c2-b5d8-f88a60550f2b.png；按用户给出的关卡顺序对应 1-1，位置从左到右。敌人名称和类型未展示，留 null。power 为截图直接战力读数。仅录入用户明确指定的属性减益；未提供的禁用类型、其他敌方增益和特殊条件暂按无处理，不代表已经确认。本轮不使用普通或特殊补强；卡池沿用当前 units.json，未获得本轮单位卡面复核。",
+      "enemies": [
+        {
+          "id": "stage1_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 115,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 101,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 109,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage1_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 111,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-691a5244-268b-4dc8-b35c-443955ac4a56.png；按用户给出的关卡顺序对应 1-2，位置从左到右。敌人名称和类型未展示，留 null。power 为截图直接战力读数。仅录入用户明确指定的属性减益；未提供的禁用类型、其他敌方增益和特殊条件暂按无处理，不代表已经确认。本轮不使用普通或特殊补强；卡池沿用当前 units.json，未获得本轮单位卡面复核。",
+      "enemies": [
+        {
+          "id": "stage1_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 158,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 203,
+          "weaknesses": [
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 180,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage1_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 170,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        }
+      ]
+    }
+  },
+  "stage2": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-6bcae2f2-8022-4384-8852-77aa2ca5e179.png；按用户给出的关卡顺序对应 2-1，位置从左到右。敌人名称和类型未展示，留 null。power 为截图直接战力读数。仅录入用户明确指定的属性减益；未提供的禁用类型、其他敌方增益和特殊条件暂按无处理，不代表已经确认。本轮不使用普通或特殊补强；卡池沿用当前 units.json，未获得本轮单位卡面复核。",
+      "enemies": [
+        {
+          "id": "stage2_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 171,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 204,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 188,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage2_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 163,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ]
+        }
+      ]
+    },
+    "level2": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-6b9e9f2c-3d09-40e8-bf25-634e702a2223.png；按用户给出的关卡顺序对应 2-2，位置从左到右。敌人名称和类型未展示，留 null。按用户要求，截图战力除以 1.08 后向上取整写入 power，display_power 保留截图原值；不再以 buff_percent 重复还原。仅录入用户明确指定的属性减益；未提供的禁用类型、其他敌方增益和特殊条件暂按无处理，不代表已经确认。本轮不使用普通或特殊补强；卡池沿用当前 units.json，未获得本轮单位卡面复核。",
+      "enemies": [
+        {
+          "id": "stage2_level2_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 131,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ],
+          "display_power": 141
+        },
+        {
+          "id": "stage2_level2_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 133,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ],
+          "display_power": 143
+        },
+        {
+          "id": "stage2_level2_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 140,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "detectability"
+          ],
+          "display_power": 151
+        },
+        {
+          "id": "stage2_level2_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 125,
+          "weaknesses": [
+            "smoke_screen",
+            "rapid_fire"
+          ],
+          "display_power": 134
+        }
+      ]
+    },
+    "level3": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-20a2e920-baab-42e9-8137-2caa2553553b.png；按用户给出的关卡顺序对应 2-3，位置从左到右。敌人名称和类型未展示，留 null。按用户要求，截图战力除以 1.08 后向上取整写入 power，display_power 保留截图原值；不再以 buff_percent 重复还原。仅录入用户明确指定的属性减益；未提供的禁用类型、其他敌方增益和特殊条件暂按无处理，不代表已经确认。本轮不使用普通或特殊补强；卡池沿用当前 units.json，未获得本轮单位卡面复核。",
+      "enemies": [
+        {
+          "id": "stage2_level3_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 150,
+          "weaknesses": [
+            "detectability",
+            "attack_aircraft"
+          ],
+          "display_power": 161
+        },
+        {
+          "id": "stage2_level3_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 125,
+          "weaknesses": [
+            "large_caliber"
+          ],
+          "display_power": 135
+        },
+        {
+          "id": "stage2_level3_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 166,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ],
+          "display_power": 179
+        },
+        {
+          "id": "stage2_level3_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 135,
+          "weaknesses": [
+            "large_caliber",
+            "attack_aircraft"
+          ],
+          "display_power": 145
+        }
+      ]
+    },
+    "level4": {
+      "debuff": [
+        "armor"
+      ],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-f82be111-29e0-49f7-b8c5-a00baa916a4c.png；按用户给出的关卡顺序对应 2-4，位置从左到右。敌人名称和类型未展示，留 null。power 为截图直接战力读数。仅录入用户明确指定的属性减益；未提供的禁用类型、其他敌方增益和特殊条件暂按无处理，不代表已经确认。本轮不使用普通或特殊补强；卡池沿用当前 units.json，未获得本轮单位卡面复核。",
+      "enemies": [
+        {
+          "id": "stage2_level4_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 130,
+          "weaknesses": [
+            "smoke_screen",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level4_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 162,
+          "weaknesses": [
+            "detectability",
+            "large_caliber"
+          ]
+        },
+        {
+          "id": "stage2_level4_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 124,
+          "weaknesses": [
+            "anti_aircraft_fire"
+          ]
+        },
+        {
+          "id": "stage2_level4_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 164,
+          "weaknesses": [
+            "detectability",
+            "rapid_fire"
+          ]
+        }
+      ],
+      "debuff_percent": {
+        "armor": 24
+      }
+    }
+  },
+  "stage3": {
+    "level1": {
+      "debuff": [],
+      "forbidden": [],
+      "notes": "来源：codex-clipboard-e1b58381-8b0a-4206-b71c-7da4ac7ff0f1.png；按用户给出的关卡顺序对应 3-1，位置从左到右。敌人名称和类型未展示，留 null。power 为截图直接战力读数。仅录入用户明确指定的属性减益；未提供的禁用类型、其他敌方增益和特殊条件暂按无处理，不代表已经确认。本轮不使用普通或特殊补强；卡池沿用当前 units.json，未获得本轮单位卡面复核。",
+      "enemies": [
+        {
+          "id": "stage3_level1_enemy_1",
+          "name": null,
+          "type": null,
+          "position": 1,
+          "power": 163,
+          "weaknesses": [
+            "rapid_fire",
+            "attack_aircraft"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_2",
+          "name": null,
+          "type": null,
+          "position": 2,
+          "power": 233,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_3",
+          "name": null,
+          "type": null,
+          "position": 3,
+          "power": 191,
+          "weaknesses": [
+            "anti_aircraft_fire",
+            "smoke_screen"
+          ]
+        },
+        {
+          "id": "stage3_level1_enemy_4",
+          "name": null,
+          "type": null,
+          "position": 4,
+          "power": 191,
+          "weaknesses": [
+            "detectability"
+          ]
+        }
+      ]
+    }
+  }
+}

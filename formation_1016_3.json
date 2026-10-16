@@ -1,0 +1,242 @@
+{
+  "stage1_level1": {
+    "units": [
+      "uss_cleveland",
+      "dauntless_uss_saratoga",
+      "hmas_vampire",
+      "hr_ms_de_ruyter"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage1_level2": {
+    "units": [
+      "wildcat_uss_saratoga",
+      "uss_laffey",
+      "uss_hughes",
+      "uss_farragut"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage1_level3": {
+    "units": [
+      "uss_johnston",
+      "uss_alaska",
+      "helldiver_uss_essex",
+      "corsair_uss_essex"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage2_level1": {
+    "units": [
+      "helldiver_uss_essex",
+      "avenger_uss_enterprise",
+      "hellcat_uss_enterprise",
+      "corsair_uss_essex"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage2_level2": {
+    "units": [
+      "uss_san_diego",
+      "hms_king_george_v",
+      "uss_alaska",
+      "uss_colorado"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage2_level3": {
+    "units": [
+      "uss_benson",
+      "uss_new_orleans",
+      "uss_kidd",
+      "uss_new_mexico"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage2_level4": {
+    "units": [
+      "uss_missouri",
+      "uss_north_carolina",
+      "uss_johnston",
+      "uss_laffey"
+    ],
+    "regular": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage3_level1": {
+    "units": [
+      "hms_king_george_v",
+      "uss_colorado",
+      "uss_san_diego",
+      "uss_laffey"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage3_level2": {
+    "units": [
+      "uss_baltimore",
+      "le_triomphant",
+      "uss_cleveland",
+      "helldiver_uss_essex"
+    ],
+    "regular": [
+      1,
+      3,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage3_level3": {
+    "units": [
+      "uss_kidd",
+      "uss_johnston",
+      "hms_repulse",
+      "uss_new_orleans"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage3_level4": {
+    "units": [
+      "corsair_uss_essex",
+      "uss_alaska",
+      "hellcat_uss_enterprise",
+      "hmas_hobart"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "stage4_level1": {
+    "units": [
+      "hellcat_uss_enterprise",
+      "uss_north_carolina",
+      "uss_baltimore",
+      "uss_missouri"
+    ],
+    "regular": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "special": [
+      0,
+      2,
+      0,
+      0
+    ]
+  }
+}
